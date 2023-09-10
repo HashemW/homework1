@@ -7,3 +7,10 @@ take the newest version of the main branch and the branch you are on and merge t
 have to figure out whether there are merge conflicts and solve them. Git rebase on the other hand will implement your functionality changes into
 the main branch directly and have the latest version of the main branch point to the first version of your branch, making it a more linear
 history. Doing git merge too much can cause disorginization, but they are both useful.
+
+What is a remote repository?
+
+A remote repository is a repository that is kept on a network, this remote
+repository can be cloned by people who want to work on it and then it is a
+local repository on their system.
+
